@@ -1,0 +1,45 @@
+table {
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    height: 30px;
+    display: inline-block;
+    margin-top: 2%;
+    border: 0.5px lightgrey;
+    border-radius: 20px;
+    color: white;
+    background: #222;
+}
+.addingDataButtons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    height: 80px;
+    margin-bottom: 2%;
+}
+.addingDataButtons > button {
+    vertical-align: middle;
+    width: 40%;
+    height: 60%;
+    line-height: 60%;
+}
+
+input {
+    width: 80%;
+}
+
+.rowMenu {
+    vertical-align: top;
+    box-sizing: content-box;
+    width: 20%;
+    height: 40px;
+    margin-left: 1px;
+    font-size: 8px;
+    border-radius: 2px;
+}

@@ -1,0 +1,22 @@
+#inputMovieDataDiv > form {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-gap: 10px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+}
+
+form > p {
+    font-weight: bold;
+    grid-column: 1;
+}
+form > input {
+    border: 1px solid lightgrey;
+    width: 25%;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    grid-column: 2;
+}
